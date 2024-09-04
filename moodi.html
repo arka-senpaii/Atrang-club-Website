@@ -1,0 +1,261 @@
+<html>
+
+<head>
+    <title>Mood Indigo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        header {
+            font-family: 'sofia';
+            max-width: 80%;
+            margin: auto;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            position: relative;
+            z-index: 100;
+            font-size: large;
+        }
+        
+        header a {
+            color: #00eeff;
+            margin-right: 40px;
+        }
+        
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #fff;
+        }
+        
+        .header {
+            background-image: url('image/stage.png');
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+            position: relative;
+        }
+        
+        .header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            margin: 0;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+        }
+        
+        .header .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        
+        .content {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        
+        .content h2 {
+            font-family: 'Sofia';
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        
+        .content p {
+            font-size: 1em;
+            color: #555;
+            max-width: 800px;
+            margin: 0 auto 40px;
+        }
+        
+        .event {
+            display: flex;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 40px;
+            padding: 0 20px;
+        }
+        
+        .event img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        
+        .event:nth-child(even) img {
+            margin-right: 0;
+            margin-left: 20px;
+        }
+        
+        .event h3 {
+            font-family: 'sofia';
+            font-size: 1.5em;
+            margin: 0 0 10px;
+        }
+        
+        .event p {
+            font-size: 1em;
+            color: #555;
+            margin: 0 0 20px;
+        }
+        
+        .event .btn {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 1em;
+            border-radius: 5px;
+        }
+        
+        .event .btn:hover {
+            background-color: #333;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+        }
+        
+        .logo-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            /* Ensure logo is on top of the slider */
+            width: auto;
+            /* Changed from 100% to auto */
+            /* Take full width of the slider */
+            height: 100px;
+            /* Adjust height to your liking */
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="moodi.html">Mood I</a>
+            </nav>
+        </header>
+        <h1>Hey ready to represent our college in</h1>
+        <div class="logo">
+            <img src="image/moodi.png" alt="Mood Indigo Logo">
+        </div>
+    </div>
+    <div class="content">
+        <h2>
+            <div id="moodi" class="welcome-to">Mood Indigo</div>
+        </h2>
+        <p>'Mood Indigo' is an annual cultural festival hosted by the Indian Institute of Technology (IIT) Bombay. It's one of the largest and most prestigious college festivals in India, attracting students from across the country and sometimes even from
+            international institutions.</p>
+        <hr>
+        <div class="event">
+            <img src="image/pexels-andre-furtado-43594-1264210 (1).jpg" alt="A person taking a photograph in a garden">
+            <div>
+                <h3>Frames</h3>
+                <p>An offline photography competition showcasing the best in photography skills and creativity.</p>
+                <a href="/image/Frames.pdf" class="btn">Know More ></a>
+                <a href="https://forms.gle/yb2TJbYqEJkGkfgW8" class="btn">Register ></a>
+            </div>
+        </div>
+        <hr>
+        <div class="event">
+            <div>
+                <h3>Sanskriti</h3>
+                <p>A group folk dance competition that celebrates traditional Indian dance forms.</p>
+                <a href="/image/Sanskrit.pdf" class="btn">Know More ></a>
+                <a href="https://forms.gle/yb2TJbYqEJkGkfgW8" class="btn">Register ></a>
+            </div>
+            <img src="image/Traditional-folk-dance-of-West-Bengal-Chhau-dance (1).webp" alt="Traditional Indian dance performance">
+        </div>
+        <hr>
+        <div class="event">
+            <img src="image/770b29c2-d211-4c5e-add8-960e586398a5 (1).jpg" alt="A person performing on stage">
+            <div>
+                <h3>Chosen One</h3>
+                <p>A talent hunt competition to find the most talented individual in various performing arts.</p>
+                <a href="/image/Chosen ONe.pdf" class="btn">Know More ></a>
+                <a href="https://forms.gle/yb2TJbYqEJkGkfgW8" class="btn">Register ></a>
+            </div>
+        </div>
+        <hr>
+        <div class="event">
+            <div>
+                <h3>Aagaaz</h3>
+                <p>A street play competition where teams perform in an open-air venue.</p>
+                <a href="/image/Aagaz.pdf" class="btn">Know More ></a>
+                <a href="https://forms.gle/yb2TJbYqEJkGkfgW8" class="btn">Register ></a>
+            </div>
+            <img src="image/Street-Theatre1_6194bbb2361a2.webp" alt="Traditional Indian dance performance">
+        </div>
+        <hr>
+        <div class="event">
+            <img src="image/6a0133ec991857970b0162fc4e5974970d-450wi.jpg" alt="A person performing on stage">
+            <div>
+                <h3>Mi Idol</h3>
+                <p>A solo singing competition where participants showcase their vocal talent in Hindi songs..</p>
+                <a href="/image/Mi Idol.pdf" class="btn">Know More ></a>
+                <a href="https://forms.gle/yb2TJbYqEJkGkfgW8" class="btn">Register ></a>
+            </div>
+        </div>
+        <hr>
+        <div class="event">
+            <div>
+                <h3>Singing of the Indigo's
+                </h3>
+                <p>A solo singing competition in English.</p>
+                <a href="/image/Singing the indigos.pdf" class="btn">Know More ></a>
+                <a href="https://forms.gle/yb2TJbYqEJkGkfgW8" class="btn">Register ></a>
+            </div>
+            <img src="image/article_full@1x.jpg" alt="Traditional Indian dance performance">
+        </div>
+        <hr>
+        <div class="event">
+            <img src="image/Fossilslive2.jpg" alt="A person performing on stage">
+            <div>
+                <h3>Mantra</h3>
+                <p>A competition where bands showcase their musical prowess and stage presence.</p>
+                <a href="/image/Mantra.pdf" class="btn">Know More ></a>
+                <a href="https://forms.gle/yb2TJbYqEJkGkfgW8" class="btn">Register ></a>
+            </div>
+        </div>
+        <hr>
+        <div class="event">
+            <div>
+                <h3>Mi The Best</h3>
+                <p>Solo dance competition.</p>
+                <a href="/image/Mi the best.pdf" class="btn">Know More ></a>
+                <a href="https://forms.gle/yb2TJbYqEJkGkfgW8" class="btn">Register ></a>
+            </div>
+            <img src="image/405092885_655944530043812_8011526502841008041_n (1).jpg" alt="Traditional Indian dance performance">
+        </div>
+        <hr>
+        <div class="event">
+            <img src="image/7052284561_a22c3e64be_o.jpg" alt="A person performing on stage">
+            <div>
+                <h3>Slam Poetry</h3>
+                <p>A solo poetry competition in English.</p>
+                <a href="/image/Slam_poetry.pdf" class="btn">Know More ></a>
+                <a href="https://forms.gle/yb2TJbYqEJkGkfgW8" class="btn">Register ></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Atrang. All rights reserved.</p>
+    </div>
+    <script src="moodi.js"></script>
+</body>
+< </html>
